@@ -1,0 +1,41 @@
+<!-- 
+    !DOCTYPE html 구글 크롬으로 하여금 이 문서가 html 문서임을 알려준다.
+     !DOCTYPE html 닫지 않는 이유는 self-contained 태그라고 하여 혼자 스스로 열고 닫는 태그
+-->
+<!DOCTYPE html>
+<!--html 태그안에 있는건 전부 html 문서.-->
+<html>
+  <!--
+        문서는 크게 2가지 부분으로 나눌 수 있다.
+        1. head
+        2. body
+    -->
+  <head>
+    <!--
+        정말 여러가지 종류의 meta 태그가 있다.
+        트위터, 네이버, 페이스북 등 특정 플래폼만을 위해서 존재하기도 한다.
+    -->
+    <!--meta charset는 Character encoding이라는 뜻-->
+    <meta charset="utf-8" />
+    <!--meta name은 description-->
+    <meta name="description" content="Welcome to my KaKao Clone" />
+    <!--
+            head는 유저에게 보이지 않는다.
+            브라우저에게 웹사이트에 관한 필요한 정보를 제공할 뿐이다.
+     -->
+    <title>This is my title</title>
+    <!--웹브라우저에 탭부분 제목-->
+  </head>
+  <body>
+    <section>
+      <header id="headerNumberOne" class="defaultHeader">
+        <h1>Title of a section</h1>
+      </header>
+    </section>
+    <div>
+      <header id="differentHeader" class="defaultHeader">
+        Title of the unkown container
+      </header>
+    </div>
+  </body>
+</html>
